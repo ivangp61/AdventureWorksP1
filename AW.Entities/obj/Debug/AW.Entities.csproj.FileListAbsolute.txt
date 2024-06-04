@@ -1,0 +1,13 @@
+E:\Practice\Project\Webservice\WorldWideImporters\AW.Entities\bin\Debug\AW.Entities.dll.config
+E:\Practice\Project\Webservice\WorldWideImporters\AW.Entities\bin\Debug\AW.Entities.dll
+E:\Practice\Project\Webservice\WorldWideImporters\AW.Entities\bin\Debug\AW.Entities.pdb
+E:\Practice\Project\Webservice\WorldWideImporters\AW.Entities\obj\Debug\AW.Entities.csproj.CoreCompileInputs.cache
+E:\Practice\Project\Webservice\WorldWideImporters\AW.Entities\obj\Debug\AW.Entities.dll
+E:\Practice\Project\Webservice\WorldWideImporters\AW.Entities\obj\Debug\AW.Entities.pdb
+E:\Practice\Project\Webservice\AW.Services\AW.Entities\bin\Debug\AW.Entities.dll.config
+E:\Practice\Project\Webservice\AW.Services\AW.Entities\bin\Debug\AW.Entities.dll
+E:\Practice\Project\Webservice\AW.Services\AW.Entities\bin\Debug\AW.Entities.pdb
+E:\Practice\Project\Webservice\AW.Services\AW.Entities\obj\Debug\AW.Entities.csproj.AssemblyReference.cache
+E:\Practice\Project\Webservice\AW.Services\AW.Entities\obj\Debug\AW.Entities.csproj.CoreCompileInputs.cache
+E:\Practice\Project\Webservice\AW.Services\AW.Entities\obj\Debug\AW.Entities.dll
+E:\Practice\Project\Webservice\AW.Services\AW.Entities\obj\Debug\AW.Entities.pdb
