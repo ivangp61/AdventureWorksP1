@@ -5,13 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AW.Entities
 {
-    [DataContract]
+    [DataContract]    
     public class Person
     {
+        
         [DataMember]
+        [Key]
         public int BusinessEntityID { get; set; }
 
         [DataMember]

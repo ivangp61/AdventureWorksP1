@@ -13,18 +13,21 @@ using AW.Entities;
 namespace AW.Services
 {
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]
-    public class AWService : IAWService, IDisposable
+    public class AWService : IAWService//, IDisposable
     {
-        readonly AWDbContext _Context = new AWDbContext();
+        
+        //readonly AWDbContext _Context = new AWDbContext();
         //[PrincipalPermission(SecurityAction.Demand, Role = "BUILTIN\\Users")]
         public List<Person> GetPersons()
         {
-            return _Context.Person.ToList();
+            PersonDB getPersons = new PersonDB();
+            return getPersons.GetPersons();
+            //return _Context.Persons.ToList();
         }
 
-        public void Dispose()
-        {
-            _Context.Dispose();
-        }
+        //public void Dispose()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

@@ -12,18 +12,19 @@ namespace AW.Data
 {
     public class AWDbContext:DbContext
     {
-        public DbSet<Person> Person { get; set; }
+        public DbSet<Person> Persons { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
+        {            
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
-            modelBuilder.Entity<Person>()
-                .Property(c => c.BusinessEntityID)
-                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
 
-            modelBuilder.Entity<Person>().Ignore(c => c.FirstName);
+            modelBuilder.Entity<Person>()
+            .Property(c => c.BusinessEntityID) // Client must set the ID.
+            .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
+
+
         }
     }
 }
